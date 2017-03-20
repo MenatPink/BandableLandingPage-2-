@@ -1,0 +1,288 @@
+body {
+  background-color: #e5e5e5; }
+
+a {
+  text-decoration: none;
+  color: #e5e5e5; }
+  a:hover {
+    text-decoration: none;
+    color: #e5e5e5; }
+
+.section1 {
+  overflow-x: hidden;
+  min-width: 100%;
+  height: 600px;
+  background-image: url(../Images/Pictures/LiveMusicConcert.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover; }
+  .section1 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 90px;
+    padding-top: 120px;
+    padding-left: 150px;
+    text-shadow: 1px 1px 7px black; }
+  .section1 h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #e5e5e5;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-left: 270px; }
+
+.section2 {
+  overflow: hidden; }
+  .section2 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 4.2em;
+    color: #212121;
+    padding-top: 65px;
+    padding-left: 275px;
+    text-shadow: 2px 2px 2px black; }
+  .section2 .ArtistInfo {
+    cursor: pointer;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 1px 1px 7px black;
+    background-color: #46a27c;
+    background-image: url(../Images/Icons/LiveMusicIcon.svg); }
+  .section2 .VenueInfo {
+    overflow: hidden;
+    cursor: pointer;
+    width: 200px;
+    height: 190px;
+    margin-top: 30px;
+    margin-right: 60px;
+    float: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 1px 1px 7px black;
+    background-color: #46a27c;
+    background-image: url(../Images/Icons/SpeakerSymbolIcon.svg); }
+  .section2 .MoreInfo {
+    overflow: hidden;
+    cursor: pointer;
+    width: 200px;
+    height: 190px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 1px 1px 7px black;
+    background-color: #46a27c;
+    background-image: url(../Images/Icons/HumanIcon.svg);
+    margin-bottom: 3px; }
+  .section2 .artistOverlay {
+    overflow-y: scroll;
+    background-color: rgba(70, 162, 124, 0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: -400px;
+    transition: all ease-in 0.75s; }
+    .section2 .artistOverlay::-webkit-scrollbar {
+      width: 10px; }
+    .section2 .artistOverlay::-webkit-scrollbar-thumb {
+      width: 10px;
+      background-color: #377c5f;
+      border-radius: 40px; }
+    .section2 .artistOverlay p {
+      font-family: 'Raleway', sans-serif;
+      color: #e5e5e5;
+      width: 90%;
+      margin: auto;
+      padding-top: 10px;
+      font-size: 20px; }
+  .section2 .venueOverlay {
+    overflow-y: scroll;
+    background-color: rgba(70, 162, 124, 0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: 300px;
+    transition: all ease-in 0.75s; }
+    .section2 .venueOverlay::-webkit-scrollbar {
+      width: 10px; }
+    .section2 .venueOverlay::-webkit-scrollbar-thumb {
+      width: 10px;
+      background-color: #377c5f;
+      border-radius: 40px; }
+    .section2 .venueOverlay p {
+      font-family: 'Raleway', sans-serif;
+      color: #e5e5e5;
+      width: 90%;
+      margin: auto;
+      padding-top: 10px;
+      font-size: 20px; }
+  .section2 .moreOverlay {
+    overflow-y: scroll;
+    background-color: rgba(70, 162, 124, 0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all ease-in 0.75s;
+    margin-top: 300px; }
+    .section2 .moreOverlay::-webkit-scrollbar {
+      width: 10px; }
+    .section2 .moreOverlay::-webkit-scrollbar-thumb {
+      width: 10px;
+      background-color: #377c5f;
+      border-radius: 40px; }
+    .section2 .moreOverlay p {
+      font-family: 'Raleway', sans-serif;
+      color: #e5e5e5;
+      width: 90%;
+      margin: auto;
+      padding-top: 10px;
+      font-size: 20px; }
+
+.buffer {
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid transparent; }
+
+.section3 {
+  overflow: auto;
+  margin-top: 65px;
+  background-color: #212121;
+  min-width: 100%;
+  min-height: 343px;
+  clear: both;
+  color: #e5e5e5; }
+  .section3 h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 50px;
+    text-shadow: 1px 1px 7px black; }
+  .section3 .socialbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between; }
+  .section3 .social {
+    margin: 15px;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #46a27c;
+    font-variant: small-caps;
+    transition: all ease-in 0.25s; }
+    .section3 .social h3 {
+      font-size: 3rem;
+      padding-top: 50px; }
+  .section3 #Facebook {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    background-image: url(../Images/Icons/SocialMedia/FacebookIcon.svg);
+    opacity: 0.3; }
+  .section3 #Instagram {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    background-image: url(../Images/Icons/SocialMedia/InstagramIcon.svg);
+    opacity: 0.3; }
+  .section3 #Twitter {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    background-image: url(../Images/Icons/SocialMedia/TwitterIcon.svg);
+    opacity: 0.3; }
+
+@media (max-width: 650px) {
+  .section1 h1 {
+    margin: 200px auto 100px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 210px;
+    font-size: 40px; }
+  .section1 h6 {
+    text-align: center;
+    padding: 0; }
+
+  .section2 {
+    width: 100%; }
+    .section2 h1 {
+      padding: 0;
+      margin: 20px auto;
+      width: 90%;
+      text-align: center;
+      font-size: 30px; }
+    .section2 .ArtistInfo {
+      float: none;
+      margin: 20px auto;
+      width: 250px; }
+    .section2 .VenueInfo {
+      float: none;
+      margin: 20px auto;
+      width: 250px; }
+    .section2 .MoreInfo {
+      float: none;
+      margin: 20px auto;
+      width: 250px; }
+
+  .section3 .social h3 {
+    font-size: 2em; } }
+@media (max-width: 800px) {
+  .section3 .socialbar {
+    width: 60%;
+    display: block; } }
+@media (min-width: 900px) {
+  .section2 .ArtistInfo {
+    width: 400px;
+    height: 600px; }
+  .section2 .VenueInfo {
+    width: 290px;
+    height: 290px; }
+  .section2 .MoreInfo {
+    width: 290px;
+    height: 290px; }
+
+  .section3 h1 {
+    font-size: 4em; }
+  .section3 h3 {
+    margin-top: 40px;
+    font-size: 2rem; } }
+@media (min-width: 1200px) {
+  .section1 h1 {
+    font-size: 120px; }
+  .section1 h6 {
+    font-size: 40px;
+    padding-left: 215px; }
+
+  .section2 h1 {
+    font-size: 5em;
+    padding-left: 380px; }
+  .section2 .ArtistInfo {
+    margin-left: 220px;
+    height: 640px; }
+  .section2 .VenueInfo {
+    margin-right: 220px; }
+  .section2 .MoreInfo {
+    margin-top: 60px;
+    margin-right: 220px; } }
+
+/*# sourceMappingURL=index.css.map */
